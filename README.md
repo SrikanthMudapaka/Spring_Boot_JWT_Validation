@@ -12,5 +12,6 @@
 *)The client sends this JWT token in the header for all subsequent requests.
 
 *)The client authenticates the user with this token. So we don't need the client to send the user name and password to the server during each authentication process, but only once the server sends the client a JWT.
+techgeeknext
  
  **********************IN JWT VALIDATIONS EVERY USER HAS A UNIQUE NAME ****************************
