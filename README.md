@@ -13,5 +13,8 @@
 
 *)The client authenticates the user with this token. So we don't need the client to send the user name and password to the server during each authentication process, but only once the server sends the client a JWT.
 techgeeknext
+
+first, perform post request : localhost:9090/authenticate using username and paswword as JSON object
+the server would generate a JWT Token using these for access the application like performing Get request send the JWT Token in the header using Bearer.
  
  **********************IN JWT VALIDATIONS EVERY USER HAS A UNIQUE NAME ****************************
